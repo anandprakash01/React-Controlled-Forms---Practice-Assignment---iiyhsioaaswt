@@ -85,7 +85,7 @@ function App() {
           </p>
           <p className="checkbox">
             <span className="title">Checkbox : </span> {`[ `}
-            {checkbox.filter((el)=>el).map((el,idx)=>{return `${idx+1} `})}
+            {checkbox.filter((el)=>el).map((el,idx)=>{return `${idx+1}, `})}
             {`]`}
           </p>
         </div>
